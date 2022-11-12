@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Cantarell', sans-serif;
+    cursor: pointer;
+}
+body{
+    height: 200vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to left,#78e7d2,#1d08a5);
+
+}
+form{
+    height: 35rem;
+    width: 25rem;
+    display: flex;
+    flex-direction: column;
+    background: rgb(255, 255, 255,0.06);
+    box-shadow: 0 8px 30px 0 rgba(31,38,135,.37);
+    border-radius: 30px;
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-top: 1px solid rgba(255,255,255,.3);
+    opacity: .9;
+}
+h1{
+    font-size: 40px;
+    text-align: center;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+    letter-spacing: 2px;
+    margin-bottom: 5%;
+    opacity: .7;
+}
+label{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-left: 5%;
+    opacity: .8;
+    margin-bottom: 3%;
+    text-shadow: 2px 2px 4px rgba(0,0,0,.2);
+}
+input{
+    width: 80%;
+    margin: 5%;
+    margin-bottom: 3%;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: whitesmoke;
+    border-bottom: 1px solid rgba(255,255,255,0.6);
+    opacity: .8;
+}
+form input[type="submit"]{
+    align-content: center;
+    width: 50%;
+    margin: 3%;
+    color: whitesmoke;
+    font-size: 15px;
+    opacity: .8;
+    background: rgba(255,255,255,0.6);
+    padding: 10px 30px;
+    border: none;
+    outline: none;
+    border-radius:20px ;
+    text-shadow: 2px 2px 4px rgba(255,255,255,.3);
+    box-shadow: 3px 3px 5px rgba(31,38,135,.37);
+    border-left: 1px solid rgba(255,255,255,.3);
+    border-right: 1px solid rgba(255,255,255,.3);
+    justify-content: center;
+}
+:placeholder-shown{
+    color: white;
+    font-size: 20px;
+}
+
+form input[type="submit"]:hover {
+    background: #0d4c5f;
+    display: flex;
+}
+form div[class="sign-txt"]{
+    color: blanchedalmond;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
